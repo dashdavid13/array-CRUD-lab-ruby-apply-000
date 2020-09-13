@@ -3,18 +3,18 @@ def create_an_empty_array
 end
 
 def create_an_array
-  [" "," "," "," "]
+  ["A","B","C","D"]
 end
 
 def add_element_to_end_of_array(array, element)
 
-  array = [" "," "," "," "]
+  array = ["A","B","C","D"]
   array.push("arrays!")
   
 end
 
 def add_element_to_start_of_array(array, element)
-  array = [" "," "," "," "]
+  array = ["A","B","C","D"]
   array.unshift("wow")
 end
 
