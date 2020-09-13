@@ -15,11 +15,13 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = ["A","B","C","D"]
+ 
   array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
   array = ["A","B","C","D"]
+   array to.i
   array.pop("D")
 end
 
